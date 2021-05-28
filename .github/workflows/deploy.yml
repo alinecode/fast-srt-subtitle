@@ -21,7 +21,7 @@ jobs:
       
       - name: Setup Static Folder
         run: |
-          echo "srt.coderemixer.com" > ./dist/CNAME
+          echo "srt.z21.org" > ./dist/CNAME
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
